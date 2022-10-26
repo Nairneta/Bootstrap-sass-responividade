@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(/Desktop/Projeto-bootstrap-OBC/img/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 490px;
+  height: auto;
+}
+
+.content {
+  padding: 40px 0px;
+}
+
+#img-logo {
+  width: 250px;
+  padding-bottom: 30px;
+}
+
+.paragraph {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.btnSucess {
+  color: #ff0043;
+  border: 1px solid #ff0043;
+}
+
+.btnSucess:hover {
+  background-color: #ff0043;
+  color: white;
+}
+
+.fotter {
+  padding-top: 30px;
+}
+
+@media (max-width: 770px) {
+  .container1 {
+    margin-top: 70px;
+    width: 400px;
+    height: auto;
+  }
+  #img-logo {
+    width: 220px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .container1 {
+    margin-top: 80px;
+    width: 350px;
+    height: auto;
+  }
+  #img-logo {
+    width: 150px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 415px) {
+  .container1 {
+    margin-top: 90px;
+    width: 275px;
+    height: auto;
+  }
+  .content {
+    text-align: start;
+  }
+  #img-logo {
+    width: 150px;
+    padding-bottom: 30px;
+  }
+}/*# sourceMappingURL=page.css.map */
